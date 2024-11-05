@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khóa Học Chuyên Nghiệp</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="/" class="logo">Khóa Học Chuyên Nghiệp</a>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="courses.html">Khóa học</a></li>
+                    <li><a href="about.html">Giới thiệu</a></li>
+                    <li><a href="contact.html">Liên hệ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <h1>Khóa Học Chuyên Nghiệp</h1>
+                <p class="lead">Nâng cao kỹ năng với các khóa học chất lượng</p>
+                <a href="#courses" class="btn btn-primary">Xem Khóa Học</a>
+            </div>
+        </section>
+
+        <!-- Featured Courses -->
+        <section id="courses" class="courses">
+            <div class="container">
+                <h2 class="section-title">Khóa Học Nổi Bật</h2>
+                <div class="course-grid">
+                    <!-- Course Card 1 -->
+                    <div class="course-card">
+                        <div class="course-image">
+                            <img src="assets/images/course1.jpg" alt="Khóa học 1">
+                        </div>
+                        <div class="course-content">
+                            <h3>Sản xuất hoạt hình nâng cao</h3>
+                            <p>Khóa học chuyên sâu về sản xuất video hoạt hình...</p>
+                            <div class="course-meta">
+                                <span class="price">500.000đ</span>
+                                <span class="duration">4 buổi</span>
+                            </div>
+                            <a href="course-detail.html" class="btn btn-outline">Chi Tiết</a>
+                        </div>
+                    </div>
+
+                    <!-- Course Card 2 -->
+                    <div class="course-card">
+                        <div class="course-image">
+                            <img src="assets/images/course2.jpg" alt="Khóa học 2">
+                        </div>
+                        <div class="course-content">
+                            <h3>Thiết kế đồ họa AI</h3>
+                            <p>Học thiết kế với công nghệ AI hiện đại...</p>
+                            <div class="course-meta">
+                                <span class="price">600.000đ</span>
+                                <span class="duration">6 buổi</span>
+                            </div>
+                            <a href="course-detail.html" class="btn btn-outline">Chi Tiết</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Student Works -->
+        <section class="student-works">
+            <div class="container">
+                <h2 class="section-title">Sản Phẩm Học Viên</h2>
+                <div class="video-grid">
+                    <div class="video-item">
+                        <div class="video-wrapper">
+                            <iframe src="https://www.youtube.com/embed/bSTz040XPaE" 
+                                    frameborder="0" 
+                                    allowfullscreen></iframe>
+                        </div>
+                        <h3>Video 1</h3>
+                    </div>
+                    <div class="video-item">
+                        <div class="video-wrapper">
+                            <iframe src="https://www.youtube.com/embed/d25XvVz4Iqg" 
+                                    frameborder="0" 
+                                    allowfullscreen></iframe>
+                        </div>
+                        <h3>Video 2</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Registration Form -->
+        <section class="registration">
+            <div class="container">
+                <h2 class="section-title">Đăng Ký Khóa Học</h2>
+                <form id="registrationForm" class="registration-form">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Họ và tên" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="phone" placeholder="Số điện thoại" required>
+                    </div>
+                    <div class="form-group">
+                        <select name="course_id" required>
+                            <option value="">Chọn khóa học</option>
+                            <option value="1">Sản xuất hoạt hình nâng cao</option>
+                            <option value="2">Thiết kế đồ họa AI</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Đăng Ký Ngay</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <h3>Khóa Học Chuyên Nghiệp</h3>
+                    <p>Đào tạo chuyên nghiệp - Nâng cao kỹ năng</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Liên kết</h4>
+                    <ul>
+                        <li><a href="about.html">Về chúng tôi</a></li>
+                        <li><a href="courses.html">Khóa học</a></li>
+                        <li><a href="contact.html">Liên hệ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Thông tin liên hệ</h4>
+                    <ul>
+                        <li>Phone: 0123 456 789</li>
+                        <li>Email: contact@example.com</li>
+                        <li>Địa chỉ: Địa chỉ của bạn</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Khóa Học Chuyên Nghiệp. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
